@@ -33,7 +33,7 @@ class Mapnik < Formula
   depends_on "freetype"
   depends_on "gdal"
   depends_on "harfbuzz"
-  depends_on "icu4c@75"
+  depends_on "olt/omniscale/icu4c@74"
   depends_on "jpeg-turbo"
   depends_on "libpng"
   depends_on "libpq"
@@ -47,7 +47,7 @@ class Mapnik < Formula
   def install
     boost = Formula["boost"]
     harfbuzz = Formula["harfbuzz"]
-    icu = Formula["icu4c@75"]
+    icu = Formula["olt/omniscale/icu4c@74"]
     jpeg = Formula["jpeg-turbo"]
     libpng = Formula["libpng"]
     libpq = Formula["libpq"]
