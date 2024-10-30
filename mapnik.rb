@@ -33,12 +33,12 @@ class Mapnik < Formula
   depends_on "freetype"
   depends_on "gdal"
   depends_on "harfbuzz"
-  depends_on "icu4c"
+  depends_on "icu4c@75"
   depends_on "jpeg-turbo"
   depends_on "libpng"
   depends_on "libpq"
   depends_on "libtiff"
-  depends_on "proj@7"
+  depends_on "olt/omniscale/proj@7"
   depends_on "sqlite"
   depends_on "webp"
 
@@ -47,12 +47,12 @@ class Mapnik < Formula
   def install
     boost = Formula["boost"]
     harfbuzz = Formula["harfbuzz"]
-    icu = Formula["icu4c"]
+    icu = Formula["icu4c@75"]
     jpeg = Formula["jpeg-turbo"]
     libpng = Formula["libpng"]
     libpq = Formula["libpq"]
     libtiff = Formula["libtiff"]
-    proj = Formula["proj@7"]
+    proj = Formula["olt/omniscale/proj@7"]
     sqlite = Formula["sqlite"]
     webp = Formula["webp"]
 
